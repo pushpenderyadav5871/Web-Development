@@ -1,0 +1,20 @@
+div{
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+  
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+
+
+}
+a{ 
+     font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    
+
+}

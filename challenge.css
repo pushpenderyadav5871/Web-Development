@@ -1,0 +1,25 @@
+#first{
+    background-color: bisque;width: 250px;
+color: blueviolet;
+padding: 5px;color: black;
+display: inline-block;
+margin:1px
+}
+#second {
+    background-color: bisque;width: 250px;
+    color:blueviolet;
+    padding: 5px;color: black;
+    display:inline-block;
+    margin: 1px;
+}
+#third{
+    background-color: bisque;width: 250px;
+    color:blueviolet;
+    padding: 5px;color: black;
+    display: inline-block;
+    margin: 1px;
+}
+@media screen and (max-width:400px){
+    display:vertical-align:vertical;
+    
+}

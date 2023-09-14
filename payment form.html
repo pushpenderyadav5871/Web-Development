@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <style>
+        body{
+            background-color:azure;
+        }
+        h1{
+            text-align: center;
+            color: rgb(168, 127, 255);
+            background-color: rgb(205, 226, 217);
+            padding: 3%;
+                   
+        }
+    h3 {
+            text-align:center;
+            font-size: larger;
+            color: rgb(226, 43, 43);
+        }
+    
+    p{ text-align: left;
+        font-size: 20px;
+        color: black;
+    
+    }
+    body{font-size: larger}
+    
+    input{color:rgb(215, 37, 108)}
+    #email,#name,#Gender,#address{color:blue;
+        text-align: center;
+
+
+    };
+   
+</style>    
+
+</head>
+<body> 
+    
+        <h1>Payment Form</h1>
+        <h3>Please fill your payment Details</h3> 
+    
+    <p>Name:<input type="text" id="name"></p>
+    <legend>Gender:</legend>
+    <p>Male<input type="radio" name="gender" id="male"></p> <p>Female<input type="radio"name="gender" id="female"></p>
+    <fieldset><p>Address:
+        <textarea name="address" id="address" cols="50" rows="5"></textarea></p></fieldset>
+    <p>Email<input type="email" name="email" id="email"></p>
+    <p>Mobile Number:<input type="number" id="mobile number"></p>
+    <p><input type="submit"></p>
+    <h2>Payment Details:-</h2>
+    <p>Card Type:
+        <select name="card_type" id="card_type">
+            <option value="">--Select a card type--</option>
+            <option value="Visa">Visa</option>
+            <img src="master card image.png" width="10%" alt="">  <option value="Mastercard">Mastercard</option>
+        </select> 
+    </p>
+    <p>Card Number <input type:"number" id="card number"></p>
+    
+</body>
+</html>
